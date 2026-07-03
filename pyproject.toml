@@ -1,0 +1,13 @@
+[project]
+name = "python-service-template"
+version = "0.1.0"
+description = "Python service template"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "ruff>=0.15.20",
+]
